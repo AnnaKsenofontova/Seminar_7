@@ -5,6 +5,15 @@
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 
+
+Console.WriteLine("Введите номер строки элемента: ");
+int row = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите номер столбца элемента: ");
+int column = Convert.ToInt32(Console.ReadLine());
+
+
+
+
 double[,] GreatMatrixRndDouble(int rows, int colums, double min, double max)
 {
     double[,] matrix = new double[rows, colums];
